@@ -1,0 +1,103 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open sans", sans-serif;
+}
+div img{
+    display: block;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    margin: auto;
+    max-width: 960px;
+    min-width: 320px;
+    width: 100%;
+}
+header{
+    background-color: #122A57;
+    height: 100px;
+    color: white;
+    display:flex;
+    align-items: center
+   
+    
+}
+header a{
+    color: white;
+}
+ .menu{
+    display: flex;
+    justify-content: space-between;
+}
+header .list-items{
+    width: 100%;
+    max-width: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+.apresentação{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    max-width: 960px;
+    align-items: center;
+    justify-content:space-between;
+}
+.apresentação .texto h1{
+    margin-bottom: 10px;
+    color: #122A57;
+    font-size: 48px;
+}
+.apresentação a{
+    display: block;
+    background-color: #122A57;
+    color: white;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.apresentação a:hover{
+    text-decoration: underline;
+}
+.quem-somos{
+    
+    display: flex;
+    max-width: 960px;
+    align-items: center;
+    justify-content:space-between;
+}
+.quem-somos h2{
+    font-size: 32px;
+    color: #122A57;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.quem-somos h2::before{
+    content: "";
+    height: 50px;
+    width: 5px;
+    margin-right: 5px;
+    background-color:#122A57;
+    position: relative;
+}
+.quem-somos p{
+    margin-bottom: 10px;
+    width: 90%;
+}
