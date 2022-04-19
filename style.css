@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Open sans", sans-serif;
+    font-family: "Open sans", "sans-serif";
 }
 div img{
     display: block;
@@ -76,11 +76,13 @@ header .list-items{
     text-decoration: underline;
 }
 .quem-somos{
-    
     display: flex;
-    max-width: 960px;
+    max-width: 1000px;
     align-items: center;
-    justify-content:space-between;
+}
+.item-qsm{
+    margin: 10px;
+    padding: 5px;
 }
 .quem-somos h2{
     font-size: 32px;
@@ -103,10 +105,12 @@ header .list-items{
 }
 .quem-somos img{
     min-width: 420px;
+   
 }
 .container-externo{
     display: flex;
     flex-direction: column;
+    height: 100vh;
     
     
 }
@@ -114,30 +118,29 @@ header .list-items{
     background-color: #122A57;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    padding: 20px;
+    padding: 50px 100px;
+    
 
 }
 .titulo-interno{
     font-size: 24px;
-    margin-top: 10px;
+
+    margin: 20px;
     color: white;
-    display: flex;
-   
     padding: 10px;
+    align-self: center;
 }
 .container-interno .ofertas{
     display: flex;
+    flex:1;
     justify-content: space-between;
-    min-width: 960px;
+   
     
 
 }
 .item{
     display: flex;
     flex-direction: column;
-    min-width: 200px;
-    
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -146,7 +149,8 @@ header .list-items{
 
 }
 .item img{
-    width: 120px;
+    margin-bottom: 15px;
+    max-width:160px;
    
 
 }
@@ -168,4 +172,22 @@ header .list-items{
 }
 .item a:hover{
     text-decoration: underline;
+}
+.container-planos{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    border: 3px solid black;
+    height: 500px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #122A57;
+    color: white;
+    align-items: center;
+   margin: 25px;
+}
+footer p{
+    padding: 5px;
 }
